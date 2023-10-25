@@ -1,0 +1,60 @@
+/*
+ * The SCSS variables
+ */
+
+/* sidebar */
+
+$sidebar-width: 260px !default; /* the basic width */
+$sidebar-width-large: 300px !default; /* screen width: >= 1650px */
+$sb-btn-gap: 0.8rem !default;
+$sb-btn-gap-lg: 1rem !default;
+
+/* other framework sizes */
+
+$topbar-height: 3rem !default;
+$search-max-width: 200px !default;
+$footer-height: 5rem !default;
+$footer-height-large: 6rem !default; /* screen width: < 850px */
+$main-content-max-width: 1250px !default;
+$base-radius: 0.625rem !default;
+$back2top-size: 2.75rem !default;
+
+/* syntax highlight */
+
+$code-font-size: 0.85rem !default;
+$code-header-height: 2.25rem !default;
+$code-dot-size: 0.75rem !default;
+$code-dot-gap: 0.5rem !default;
+$code-icon-width: 1.75rem !default;
+
+/* fonts */
+
+$font-family-base: 'Source Sans Pro', 'Microsoft Yahei', sans-serif !default;
+$font-family-heading: Lato, 'Microsoft Yahei', sans-serif !default;
+
+/* AAA
+To unfold toc: ./_javascript/modules/components/toc.js: add option => collapseDepth: 6
+  => regenerate minified javascripts: 'npm run --watch'
+Heading Colors: ./sass/addon/common.scss
+toc heading colors : ./_sass/layout/post.scss
+Theme settings : ./_sass/colors_typography-dark.scss
+  --heading-color: Chocolate; // $h1-color (variable not working)
+  --link-color: SteelBlue; // rgb(138, 180, 248);
+  --avatar-border-color: Sienna; // MediumGray; 
+  --toc-highlight: SteelBlue; // rgb(116, 178, 243);
+*/
+
+/* Headings */
+/*
+$h1-color: DarkOrange !default;
+$h2-color: LimeGreen !default;
+$h3-color: DeepSkyBlue !default;
+$h4-color: Violet !default;
+*/
+
+$site-title-color: Green !default;
+$h1-color: Chocolate !default;
+$h2-color: rgb(0, 160, 0) !default;
+$h3-color: rgb(160, 160, 0) !default;
+$h4-color: MediumPurple !default;
+

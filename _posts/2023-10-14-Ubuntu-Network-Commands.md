@@ -14,7 +14,7 @@ img_path: assets/img
 ifconfig를 대체하는 명령은 `ip` 이다.
 
 ```terminal
-$ ip -a
+$ ip a
 ```
 
 ## 네트워크 연결 정보
